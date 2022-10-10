@@ -35,25 +35,26 @@
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light nav-custom d-flex justify-content-between">
         <div class="logo">
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
-
         <div class="collapse navbar-collapse" id="navbarNav">
+    
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" style="color:#000000">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Minhas viagens</a>
+              <a class="nav-link" href="#" style="color:#000000">Minhas viagens</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#" style="color:#000000">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cadastre-se</a>
+              <a class="nav-link" href="#" style="color:#000000">Cadastre-se</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn pinkClr text-light fw-bold login " href="#">Login</a>
@@ -61,6 +62,7 @@
           </ul>
         </div>
       </nav>
+
     </header>
     <div class="d-flex justify-content-center mt-5">
       <img class="img-fluid" src="./img/logo.png" alt="">
@@ -90,7 +92,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/saoPaulo.jpg" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">São Paulo</h5>
+        <h4 class="card-title">São Paulo</h4>
         <a href="dicas-uteis.jsp" class="btn btn-primary pinkClr">Conheça o Destino</a>
       </div>
     </div>
@@ -99,7 +101,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/chapada.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Chapada dos Veadeiros</h5>
+        <h4 class="card-title">Chapada dos Veadeiros</h4>
 
 
         <a href="" class="btn btn-primary pinkClr">Conheça o Destino</a>
@@ -110,7 +112,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/fernandinoronha.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Fernando de Noronha</h5>
+        <h4 class="card-title">Fernando de Noronha</h4>
         <a href="" class="btn btn-primary pinkClr">Conheça o Destino</a>
       </div>
     </div>
@@ -120,7 +122,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/floripa.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Florianópolis</h5>
+        <h4 class="card-title">Florianópolis</h4>
 
         <a href="" class="btn btn-primary pinkClr">Conheça o Destino</a>
       </div>
@@ -130,7 +132,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/rio.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Rio de Janeiro</h5>
+        <h4 class="card-title">Rio de Janeiro</h4>
 
         </span>
 
@@ -153,7 +155,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/amsterdam.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Amsterdam, Holanda</h5>
+        <h4 class="card-title">Amsterdam, Holanda</h4>
         <a href="" class="btn btn-primary greenClr">Conheça o Destino</a>
       </div>
     </div>
@@ -162,7 +164,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/lisboa.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Lisboa, Portugal</h5>
+        <h4 class="card-title">Lisboa, Portugal</h4>
 
 
         <a href="" class="btn btn-primary greenClr">Conheça o Destino</a>
@@ -173,7 +175,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/mikonos.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Mikonos, Grécia</h5>
+        <h4 class="card-title">Mikonos, Grécia</h4>
         <a href="" class="btn btn-primary greenClr">Conheça o Destino</a>
       </div>
     </div>
@@ -183,7 +185,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/londres.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Londres, Reino Unido</h5>
+        <h4 class="card-title">Londres, Reino Unido</h4>
 
         <a href="" class="btn btn-primary greenClr">Conheça o Destino</a>
       </div>
@@ -193,7 +195,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/amsterdam.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Amsterdam, Holanda</h5>
+        <h4 class="card-title">Amsterdam, Holanda</h4>
 
         </span>
 
@@ -215,7 +217,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/patagônia.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Patagônia</h5>
+        <h4 class="card-title">Patagônia</h4>
         <a href="" class="btn btn-primary purpleClr">Conheça o Destino</a>
       </div>
     </div>
@@ -224,7 +226,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/cartagena.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Cartagena, Colômbia</h5>
+        <h4 class="card-title">Cartagena, Colômbia</h4>
 
 
         <a href="" class="btn btn-primary purpleClr">Conheça o Destino</a>
@@ -235,7 +237,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/buenos.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Buenos Aires, Argentina</h5>
+        <h4 class="card-title">Buenos Aires, Argentina</h4>
         <a href="" class="btn btn-primary purpleClr">Conheça o Destino</a>
       </div>
     </div>
@@ -245,7 +247,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/punta.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Punta del Este, Uruguai</h5>
+        <h4 class="card-title">Punta del Este, Uruguai</h4>
 
         <a href="" class="btn btn-primary purpleClr">Conheça o Destino</a>
       </div>
@@ -255,7 +257,7 @@
     <div class="card shadow-sm p-3 mb-5 bg-white rounded card text-center card-ticket">
       <img class="card-img-top rounded" src="img/index/patagônia.png" alt="Imagem de capa do card">
       <div class="card-body">
-        <h5 class="card-title">Patagônia</h5>
+        <h4 class="card-title">Patagônia</h4>
 
         </span>
 
@@ -279,7 +281,7 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="mb-2">Ajuda</h5>
+            <h4 class="mb-2">Ajuda</h4>
 
             <ul class="list mt-3">
               <li>
@@ -298,7 +300,7 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="">Institucional</h5>
+            <h4 class="">Institucional</h4>
 
             <ul class="list mt-3">
               <li>
@@ -317,7 +319,7 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="">Navegação</h5>
+            <h4 class="">Navegação</h4>
 
             <ul class="list mt-3 ml-0">
               <li>

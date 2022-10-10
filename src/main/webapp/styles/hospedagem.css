@@ -12,6 +12,8 @@ body{
 
 }
 
+.nav-link{color:#000000; font-weight: 500;}
+
 .bigimage img{
     display: block;
     width: 100%;
@@ -228,21 +230,21 @@ footer{
 }
 
 .pinkClr{
-    background-color:#FF007A;
+    background-color:#b60b5d;
 }
 
 .blueClr{
-    background-color:#20A1F1;
+    background-color:#12679c;
 }
 
 
 .purpleClr{
-    background-color: #A100FF;
+    background-color: #7406b3;
 
 }
 
 .greenClr {
-    background-color: #00FF9D;
+    background-color: #016f45;
     color: #003C25;
     font-weight: 800;
 }
@@ -258,6 +260,10 @@ footer{
 .btn {
     border: none;
     width:100%
+}
+
+.breadcrumb-item a:link{
+    color:#011d69
 }
 
 .col{display: inline-block;}

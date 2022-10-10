@@ -49,16 +49,16 @@
     
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" style="color:#000000">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Minhas viagens</a>
+              <a class="nav-link" href="#" style="color:#000000">Minhas viagens</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#" style="color:#000000">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cadastre-se</a>
+              <a class="nav-link" href="#" style="color:#000000">Cadastre-se</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn pinkClr text-light fw-bold login " href="#">Login</a>
@@ -80,16 +80,20 @@
     	</div>
    
     <div class="col-2">
-      <span class="underline-blue flexItemNav blueClr p-2 rounded text-white">Hospedagem</span>
+    <a href='hospedagem.jsp' class='navOption'>
+      <span class="underline-blue flexItemNav blueClr p-2 rounded text-white">Hospedagem</span></a>
     </div>
     <div class="col-2">
-      <span class="underline-pink flexItemNav">Gastronomia</span>
+    <a href='gastronomia.jsp' class='navOption'>
+      <span class="underline-pink flexItemNav">Gastronomia</span></a>
     </div>
     <div class="col-2">
-      <span class="underline-orange flexItemNav">História e Cultura</span>
+    <a href='historia.jsp' class='navOption'>
+      <span class="underline-orange flexItemNav">História e Cultura</span></a>
     </div>
     <div class="col-2">
-      <span class="underline-purple flexItemNav">Entretenimento</span>
+    <a href='entreterimento.jsp' class='navOption'>
+      <span class="underline-purple flexItemNav">Entretenimento</span></a>
     </div>
     <!-- Div vazia para espaçamento -->
     <div class="col-1"></div>
@@ -122,13 +126,13 @@
         </div>
     </div>
   </div>
-  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" id="hoteisProximos">
-<ul title="Lista de hotéis próximos">
-<div class="d-flex flex-row">
+  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" >
+<ul title="Lista de hotéis próximos"  class="d-flex flex-row" id="hoteisProximos">
+
    <div class="card hotel">
   <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
         <div class="textcard">
-        <h4>Ibis Styles Barra Fu<span id="rateMe"> </h4>
+        <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
           <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
             data-placement="top" title="Very bad"></i>
           <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
@@ -149,49 +153,51 @@
         <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
         </div>
     </div>
-    
+
+
     <div class="card hotel">
-      <img src="img/hospedagem/hotelGenerico.png" alt="Foto de um quarto de hotel" />
+      <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
             <div class="textcard">
-            <h4>Ibis Styles Barra Funda</h4>
-               <span id="rateMe">
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-            data-placement="top" title="Very bad"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-            data-placement="top" title="Poor"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-            data-placement="top" title="OK"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-            data-placement="top" title="Good"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-            data-placement="top" title="Excellent"></i>
-          (1872)
-        </span>
+            <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
+              <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                data-placement="top" title="Very bad"></i>
+              <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                data-placement="top" title="Poor"></i>
+              <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                data-placement="top" title="OK"></i>
+              <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                data-placement="top" title="Good"></i>
+              <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                data-placement="top" title="Excellent"></i>
+              (1872)
+            </span>
+         
             <p>Barra Funda, São Paulo</p>
             <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
             <p></p>
-               <p class="price"><b>R$ 287</b>/noite<p></p>
+            <p class="price"><b>R$ 287</b>/noite<p>
             <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
             </div>
         </div>
 
+
         <div class="card hotel">
-          <img src="img//hospedagem/hotelGenerico.png" alt="Foto de um quarto de hotel" />
+          <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
                 <div class="textcard">
-                <h4>Ibis Styles Barra Funda</h4>
-                   <span id="rateMe">
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-            data-placement="top" title="Very bad"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-            data-placement="top" title="Poor"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-            data-placement="top" title="OK"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-            data-placement="top" title="Good"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-            data-placement="top" title="Excellent"></i>
-          (1872)
-        </span>
+                <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
+                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                    data-placement="top" title="Very bad"></i>
+                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                    data-placement="top" title="Poor"></i>
+                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                    data-placement="top" title="OK"></i>
+                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                    data-placement="top" title="Good"></i>
+                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                    data-placement="top" title="Excellent"></i>
+                  (1872)
+                </span>
+             
                 <p>Barra Funda, São Paulo</p>
                 <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
                 <p></p>
@@ -200,11 +206,11 @@
                 </div>
             </div>
 
+
             <div class="card hotel">
-              <img src="img//hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
+              <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
                     <div class="textcard">
-                    <h4>Ibis Styles Barra Funda</h4>
-                    <span id="rateMe">
+                    <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
                         data-placement="top" title="Very bad"></i>
                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
@@ -217,64 +223,16 @@
                         data-placement="top" title="Excellent"></i>
                       (1872)
                     </span>
+                 
                     <p>Barra Funda, São Paulo</p>
                     <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
                     <p></p>
-                       <p class="price"><b>R$ 287</b>/noite<p></p>
+                    <p class="price"><b>R$ 287</b>/noite<p>
                     <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
                     </div>
                 </div>
 
-                <div class="card hotel">
-                  <img src="img//hospedagem/hotelGenerico.png" alt="Foto de um quarto de hotel" />
-                        <div class="textcard">
-                        <h4>Ibis Styles Barra Funda</h4>
-                           <span id="rateMe">
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-            data-placement="top" title="Very bad"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-            data-placement="top" title="Poor"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-            data-placement="top" title="OK"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-            data-placement="top" title="Good"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-            data-placement="top" title="Excellent"></i>
-          (1872)
-        </span>
-                        <p>Barra Funda, São Paulo</p>
-                        <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-                        <p></p>
-                           <p class="price"><b>R$ 287</b>/noite<p></p>
-                        </div>
-                        <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
 
-                    </div>
-
-                    <div class="card hotel">
-                      <img src="img//hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
-                            <div class="textcard">
-                            <h4>Ibis Styles Barra Funda</h4>
-                               <span id="rateMe">
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-            data-placement="top" title="Very bad"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-            data-placement="top" title="Poor"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-            data-placement="top" title="OK"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-            data-placement="top" title="Good"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-            data-placement="top" title="Excellent"></i>
-          (1872)
-        </span>
-                            <p>Barra Funda, São Paulo</p>
-                            <p>Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-                            <p></p>
-                               <p class="price"><b>R$ 287</b>/noite<p></p>
-                            <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
-                            </div>
-                        </div>
 
                       </ul>
   	</div>
@@ -308,7 +266,7 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="mb-2">Ajuda</h5>
+          <h2 class="mb-2">Ajuda</h5>
 
           <ul class="list mt-3">
             <li>
@@ -327,7 +285,7 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="">Institucional</h5>
+          <h2 class="">Institucional</h5>
 
           <ul class="list mt-3">
             <li>
@@ -346,7 +304,7 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="">Navegação</h5>
+          <h2 class="">Navegação</h5>
 
           <ul class="list mt-3 ml-0">
             <li>
@@ -387,7 +345,7 @@
 
   <div class="d-flex justify-content-between container px-4 pt-2 pb-2 flex-wrap align-items-center line-bottom">
     <div class="">
-      <img src="./img/logo.png" class="img-fluid navbar-logo">
+      <img src="./img/logo.png" class="img-fluid navbar-logo" alt="Logo do Projeto Traveller - os ponteiros de uma bússola preenchidos pela ilustração da superfície da terra">
     </div>
     <!-- Copyright -->
     <div class="text-center p-3">
@@ -396,9 +354,9 @@
     </div>
 
     <div class="">
-      <a href=""><img src="img/facebook.png" class="img-footer img-small"></a>
-      <a href=""><img src="img/instagram.png" class="img-footer img-small"></a>
-      <a href=""><img src="img/twitter.png" class="img-footer img-small"></a>
+      <a href="" title="Acessar facebook do traveller"><img src="img/facebook.png" class="img-footer img-small" alt="Facebook logo"></a>
+      <a href="" title="Acessar instagram do traveller"><img src="img/instagram.png" class="img-footer img-small" alt="Instagram logo"></a>
+      <a href="" title="Acessar twitter do traveller"><img src="img/twitter.png" class="img-footer img-small" alt="Twitter logo"></a>
     </div>
   </div>
   <!-- Copyright -->

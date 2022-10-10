@@ -45,9 +45,9 @@ const chamarApi = () => {
         htmlList=htmlList+`
         <li class="list-unstyled">
         <div class=\"card hotel\">
-        <img src=\"img/hospedagem/hotelGenerico.png\"/>
+        <img src=\"img/hospedagem/hotelGenerico.png\" alt=\"Foto de quarto de hotel\"/>
         <div class=\"textcard\">
-        <h4>${nomehotel}</h4>${star}(${ratePlaceholder}) </span>
+        <h3>${nomehotel}</h3>${star}(${ratePlaceholder}) </span>
         <p>${obj.address.municipality}, ${obj.address.countrySubdivision}</p>
         <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
             <p></p>
