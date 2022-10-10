@@ -78,7 +78,7 @@ footer{
 
 .line-items{
     padding: 0.5rem 5rem 2rem 5rem;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card-comochegar{

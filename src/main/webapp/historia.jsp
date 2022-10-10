@@ -101,182 +101,381 @@
   </div>
 </div>
 </header>
-<div class="container">
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item" ><a href="#" style="color:#090067"><span id="city2">São Paulo</span>, Brasil</a></li>
-      <li class="breadcrumb-item active"><a href="#" style="color:#090067">Gastronomia</a></li>
-    </ol>
-  </nav>
-</div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Brasil</a></li>
+        <li class="breadcrumb-item"><a href="#">Sao Paulo</a></li>
+        <li class="breadcrumb-item active" aria-current="page">História e Cultura</li>
+      </ol>
+    </nav>
+  </div>
+
+  </div>
 
 
-<div class="container bigimage" title="">
-    <img src="img/gastronomia/galeria.png" alt="Foto de uma Pizza." />
-    <h1>Gastronomia em <b id="city">São Paulo</b></h1>
-</div>
+  <div class="Camila">
 
-<div id="pula"></div>
+    <!-- Lugar -->
 
+    <div class="container">
+      <img class="img-fluid" src="img/dicas-uteis/topo.png" alt="">
+      <div class="row">
+        <div class="row col-lg-8">
+          <!-- Sobre -->
+          <div class="container">
+            <div class="container mt-4 mb-3">
+              <h3 class="font-weight-bold">História e Cultura de São Paulo</h3>
+              <div class="underline-orange line-small"></div>
+            </div>
+            <div class="row">
+              <div class="container">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eveniet enim quibusdam, facere corrupti
+                  sed harum quam omnis odit hic beatae velit autem reprehenderit rem laborum ipsa sequi excepturi
+                  blanditiis eligendi fugiat incidunt impedit? Nisi aperiam iusto nobis culpa. Rem deserunt quisquam
+                  architecto corporis obcaecati asperiores pariatur iste, molestiae ad ratione odit! Vitae sit quidem
+                  cupiditate nulla, labore quo dolorem assumenda corporis amet nam ducimus consectetur perspiciatis
+                  ratione possimus, nesciunt alias reprehenderit accusantium officiis culpa accusamus voluptas placeat
+                  et fuga. Error asperiores voluptas adipisci voluptate minus, temporibus quaerat iste ducimus facere
+                  numquam sint at velit quod vel. Aperiam, neque impedit.
+                </p>
+              </div>
 
-  <div class="container p-4 locaisproximos mt-5">
-    <div class="locais-title mt-2 ">
-      <h2>Restaurantes em Destaque</h4>
-        <div class="divisor pinkClr">
+            </div>
+          </div>
+          <!-- Fim do sobre -->
         </div>
+      </div>
     </div>
-  </div>
-  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" id="hoteisProximos">
-<ul title="Lista de Restaurantes próximos " class="d-flex flex-row">
 
-  <li>
-   <div class="card hotel">
-  <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
-        <div class="textcard">
-        <h3>Restaurante <span id="rateMe"> </h3>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-            data-placement="top" title="Very bad"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-            data-placement="top" title="Poor"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-            data-placement="top" title="OK"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-            data-placement="top" title="Good"></i>
-          <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-            data-placement="top" title="Excellent"></i>
-          (1872)
-        </span>
-     
-        <p>Barra Funda, São Paulo</p>
-        <p class="description">Comida Chinesa</p>
-        <p class="text-center mb-0">Média de preço:</p>
-        <p class="price"><b>R$ 40</b>/pessoa<p>
-        <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+
+  </div>
+
+  </div>
+  
+
+
+  <div class="lucas">
+    <hr>
+
+
+
+    <section class="places mt-5 pb-5">
+
+      <div class="container p-4 locaisproximos">
+        <div class="locais-title mt-2 ">
+          <h4>Museus Populares em São Paulo</h4>
+          <div class="divisor orangeClr">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/MASP.png" alt="Fachada do Espaço das Américas">
+          <h5 class="card-title mt-2">Museu de Arte de São Paulo</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Pinacoteca.png" alt="Fachada do Teatro West Plaza">
+          <h5 class="card-title mt-2">Pinacoteca</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Memorial-Resistencia.png" alt="Cadeiras e palco do teatro">
+          <h5 class="card-title mt-2">Memorial da Resistência</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Museu-Imagem-Som.png"
+            alt="Cadeiras duplas, confortáveis dentro do cinema">
+          <h5 class="card-title mt-2">Museu de Imagem e Som</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Estadio-Municipal.png" alt="Pista do Jockey Club em paisagem noturna">
+          <h5 class="card-title mt-2">Museu do Futebol</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
         </div>
 
-      </li>
-      <li>
-        <div class="card hotel">
-       <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
-             <div class="textcard">
-             <h3>Restaurante <span id="rateMe"> </h3>
-               <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                 data-placement="top" title="Very bad"></i>
-               <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                 data-placement="top" title="Poor"></i>
-               <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                 data-placement="top" title="OK"></i>
-               <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                 data-placement="top" title="Good"></i>
-               <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                 data-placement="top" title="Excellent"></i>
-               (1872)
-             </span>
-          
-             <p>Barra Funda, São Paulo</p>
-             <p class="description">Comida Chinesa</p>
-             <p class="text-center mb-0">Média de preço:</p>
-             <p class="price"><b>R$ 40</b>/pessoa<p>
-             <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
-             </div>
-     
-           </li>
-           <li>
-            <div class="card hotel">
-           <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
-                 <div class="textcard">
-                 <h3>Restaurante <span id="rateMe"> </h3>
-                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                     data-placement="top" title="Very bad"></i>
-                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                     data-placement="top" title="Poor"></i>
-                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                     data-placement="top" title="OK"></i>
-                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                     data-placement="top" title="Good"></i>
-                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                     data-placement="top" title="Excellent"></i>
-                   (1872)
-                 </span>
-              
-                 <p>Barra Funda, São Paulo</p>
-                 <p class="description">Comida Chinesa</p>
-                 <p class="text-center mb-0">Média de preço:</p>
-                 <p class="price"><b>R$ 40</b>/pessoa<p>
-                 <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
-                 </div>
-         
-               </li>
-               <li>
-                <div class="card hotel">
-               <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
-                     <div class="textcard">
-                     <h3>Restaurante <span id="rateMe"> </h3>
-                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                         data-placement="top" title="Very bad"></i>
-                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                         data-placement="top" title="Poor"></i>
-                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                         data-placement="top" title="OK"></i>
-                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                         data-placement="top" title="Good"></i>
-                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                         data-placement="top" title="Excellent"></i>
-                       (1872)
-                     </span>
-                  
-                     <p>Barra Funda, São Paulo</p>
-                     <p class="description">Comida Chinesa</p>
-                     <p class="text-center mb-0">Média de preço:</p>
-                     <p class="price"><b>R$ 40</b>/pessoa<p>
-                     <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
-                     </div>
-             
-                   </li>
-                   <li>
-                    <div class="card hotel">
-                   <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
-                         <div class="textcard">
-                         <h3>Restaurante <span id="rateMe"> </h3>
-                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                             data-placement="top" title="Very bad"></i>
-                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                             data-placement="top" title="Poor"></i>
-                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                             data-placement="top" title="OK"></i>
-                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                             data-placement="top" title="Good"></i>
-                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                             data-placement="top" title="Excellent"></i>
-                           (1872)
-                         </span>
-                      
-                         <p>Barra Funda, São Paulo</p>
-                         <p class="description">Comida Chinesa</p>
-                         <p class="text-center mb-0">Média de preço:</p>
-                         <p class="price"><b>R$ 40</b>/pessoa<p>
-                         <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
-                         </div>
-                 
-                       </li>
-                                            
-
-      
-  
-   
-     </ul>
-  	</div>
-  </div>
-  <p class="text-md-right mt-3 mr-3" style="font-size:0.7rem">As avaliações, fotos e preços são ilustrativos</p>
+      </div>
 
 
 
 
+      <div class="container p-4 locaisproximos">
+        <div class="locais-title mt-2 ">
+          <h4>Parques em São Paulo</h4>
+          <div class="divisor orangeClr">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Ibira.png" alt="Quarto do Hotel">
+          <h5 class="card-title mt-2">Ibirapuera</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/tiete.png" alt="Quarto do Hotel">
+          <h5 class="card-title mt-2">Parque Ecológico do Tietê</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Parque Villa Lobos.png" alt="Quarto do Hotel">
+          <h5 class="card-title mt-2">Parque Villa Lobos</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/zoologico.png" alt="Quarto do Hotel">
+          <h5 class="card-title mt-2">Zoológico de São Paulo</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/jardim-botanico.png" alt="Quarto do Hotel">
+          <h5 class="card-title mt-2">Jardim Botânico de São Paulo</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="container p-4 locaisproximos">
+        <div class="locais-title mt-2 ">
+          <h4> Centros culturais em São Paulo</h4>
+          <div class="divisor orangeClr">
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-row flex-nowrap overflow-auto line-items">
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/ccsp.png" alt="Card image cap">
+          <h5 class="card-title mt-2">Centro Cultural São Paulo</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Catedral.png" alt="Card image cap">
+          <h5 class="card-title mt-2">Catedral Metropolitana de São Paulo</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/Estacao-Luz.png" alt="Card image cap">
+          <h5 class="card-title mt-2">Estação Luz</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/itau-cultural.png" alt="Card image cap">
+          <h5 class="card-title mt-2">Itaú Cultural</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+        <div class="card rounded shadow-sm rounded locals-card p-3">
+          <img class="card-img-top rounded" src="img/historia/theatro-municipal.png" alt="Card image cap">
+          <h5 class="card-title mt-2">Theatro Municipal</h5>
+          <span id="rateMe">
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+              data-placement="top" title="Very bad"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+              data-placement="top" title="Poor"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+              data-placement="top" title="OK"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+              data-placement="top" title="Good"></i>
+            <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+              data-placement="top" title="Excellent"></i>
+          </span>
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+
+        </div>
+      </div>
 
 
 
-</section>
 
+
+
+    </section>
 
 <footer class="footer shadow-lg">
   <!-- Grid container -->
