@@ -442,7 +442,7 @@
 
       <div class="container p-4 locaisproximos">
         <div class="locais-title mt-2 ">
-          <a href="hospedagem.jsp" class="link-section"><h4>Entretenimento em São Paulo</h4></a>
+          <a href="entreterimento.jsp" class="link-section"><h4>Entretenimento em São Paulo</h4></a>
           <div class="divisor purpleClr">
           </div>
         </div>
@@ -547,7 +547,7 @@
 
       <div class="container p-4 locaisproximos">
         <div class="locais-title mt-2 ">
-          <h4>Hotéis em São Paulo</h4>
+          <a href="hospedagem.jsp" class="link-section"><h4>Hotéis em São Paulo</h4></a>
           <div class="divisor blueClr">
           </div>
         </div>
@@ -650,7 +650,7 @@
 
       <div class="container p-4 locaisproximos">
         <div class="locais-title mt-2 ">
-          <h4> Restaurantes em São Paulo</h4>
+          <a href="gastronomia.jsp" class="link-section"><h4>Restaurantes em São Paulo</h4></a>
           <div class="divisor pinkClr">
           </div>
         </div>
