@@ -92,7 +92,7 @@
       <span class="underline-orange flexItemNav orangeClr p-2 rounded text-white">História e Cultura</span></a>
     </div>
     <div class="col-2">
-    <a href='entreterimento.jsp' class='navOption'>
+    <a href='entretenimento.jsp' class='navOption'>
       <span class="underline-purple flexItemNav">Entretenimento</span></a>
     </div>
     <!-- Div vazia para espaçamento -->

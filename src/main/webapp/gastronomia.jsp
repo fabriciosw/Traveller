@@ -92,7 +92,7 @@
       <span class="underline-orange flexItemNav  mb-3">História e Cultura</span></a>
     </div>
     <div class="col-2">
-    <a href='entreterimento.jsp' class='navOption mb-3'>
+    <a href='entretenimento.jsp' class='navOption mb-3'>
       <span class="underline-purple flexItemNav mb-3">Entretenimento</span></a>
     </div>
     <!-- Div vazia para espaçamento -->
@@ -102,13 +102,14 @@
 </div>
 </header>
 <div class="container">
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item" ><a href="#" style="color:#090067"><span id="city2">São Paulo</span>, Brasil</a></li>
-      <li class="breadcrumb-item active"><a href="#" style="color:#090067">Gastronomia</a></li>
-    </ol>
-  </nav>
-</div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Brasil</a></li>
+        <li class="breadcrumb-item"><a href="#">Sao Paulo</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Gastronomia</li>
+      </ol>
+    </nav>
+  </div>
 
 
 <div class="container bigimage" title="">

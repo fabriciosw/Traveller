@@ -80,20 +80,20 @@
     	</div>
    
     <div class="col-2">
-    <a href='hospedagem.jsp' class='navOption'>
-      <span class="underline-blue flexItemNav blueClr p-2 rounded text-white">Hospedagem</span></a>
+    <a href='hospedagem.jsp' class='navOption mb-3'>
+      <span class="underline-blue flexItemNav  mb-3">Hospedagem</span></a>
     </div>
     <div class="col-2">
-    <a href='gastronomia.jsp' class='navOption'>
-      <span class="underline-pink flexItemNav">Gastronomia</span></a>
+    <a href='gastronomia.jsp' class='navOption mb-3'>
+      <span class="underline-pink flexItemNav mb-3">Gastronomia</span></a>
     </div>
     <div class="col-2">
-    <a href='historia.jsp' class='navOption'>
-      <span class="underline-orange flexItemNav">História e Cultura</span></a>
+    <a href='historia.jsp' class='navOption mb-3'>
+      <span class="underline-orange flexItemNav  mb-3">História e Cultura</span></a>
     </div>
     <div class="col-2">
-    <a href='entretenimento.jsp' class='navOption'>
-      <span class="underline-purple flexItemNav">Entretenimento</span></a>
+    <a href='entretenimento.jsp' class='navOption mb-3'>
+      <span class="underline-purple flexItemNav mb-3 purpleClr p-2 rounded text-white">Entretenimento</span></a>
     </div>
     <!-- Div vazia para espaçamento -->
     <div class="col-1"></div>
@@ -104,36 +104,37 @@
 <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item">Brasil</li>
-        <li class="breadcrumb-item">Sao Paulo</li>
-        <li class="breadcrumb-item active" aria-current="page">Hospedagem</li>
+        <li class="breadcrumb-item"><a href="#">Brasil</a></li>
+        <li class="breadcrumb-item"><a href="#">São Paulo</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Entretenimento</li>
       </ol>
     </nav>
   </div>
 
 
 <div class="container bigimage" title="">
-    <img src="img/hospedagem/Galeria.png" alt="Foto de uma janela de hotel mostrando a paísagem de São Paulo." />
-    <h1>Hospedagem em <b id="city">São Paulo</b></h1>
+    <img src="img/entretenimento/entretenimentoGenerico.jpg" alt="Foto de uma Pizza." />
+    <h1>Entretenimento em <b id="city">São Paulo</b></h1>
 </div>
 
-<div id="pula"></div>
+
 
 
   <div class="container p-4 locaisproximos mt-5">
     <div class="locais-title mt-2 ">
-      <h2>Hotéis em Destaque</h4>
-        <div class="divisor blueClr">
+      <h2>Locais em Destaque</h4>
+        <div class="divisor purpleClr">
         </div>
     </div>
   </div>
-  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" >
-<ul title="Lista de hotéis próximos"  class="d-flex flex-row" id="hoteisProximos">
+  <div class="d-flex flex-row flex-nowrap overflow-auto line-items" id="hoteisProximos">
+<ul title="Lista de Restaurantes próximos " class="d-flex flex-row">
 
+  <li>
    <div class="card hotel">
-  <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
+  <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
         <div class="textcard">
-        <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
+        <h3>Restaurante <span id="rateMe"> </h3>
           <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
             data-placement="top" title="Very bad"></i>
           <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
@@ -148,108 +149,128 @@
         </span>
      
         <p>Barra Funda, São Paulo</p>
-        <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-        <p></p>
-        <p class="price"><b>R$ 287</b>/noite<p>
-        <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
-        </div>
-    </div>
-
-
-    <div class="card hotel">
-      <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
-            <div class="textcard">
-            <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
-              <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                data-placement="top" title="Very bad"></i>
-              <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                data-placement="top" title="Poor"></i>
-              <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                data-placement="top" title="OK"></i>
-              <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                data-placement="top" title="Good"></i>
-              <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                data-placement="top" title="Excellent"></i>
-              (1872)
-            </span>
-         
-            <p>Barra Funda, São Paulo</p>
-            <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-            <p></p>
-            <p class="price"><b>R$ 287</b>/noite<p>
-            <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
-            </div>
+        <p class="description">Comida Chinesa</p>
+        <p class="text-center mb-0">Média de preço:</p>
+        <p class="price"><b>R$ 40</b>/pessoa<p>
+        <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
         </div>
 
-
+      </li>
+      <li>
         <div class="card hotel">
-          <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
-                <div class="textcard">
-                <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
-                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                    data-placement="top" title="Very bad"></i>
-                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                    data-placement="top" title="Poor"></i>
-                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                    data-placement="top" title="OK"></i>
-                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                    data-placement="top" title="Good"></i>
-                  <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                    data-placement="top" title="Excellent"></i>
-                  (1872)
-                </span>
-             
-                <p>Barra Funda, São Paulo</p>
-                <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-                <p></p>
-                <p class="price"><b>R$ 287</b>/noite<p>
-                <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
-                </div>
-            </div>
-
-
+       <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
+             <div class="textcard">
+             <h3>Restaurante <span id="rateMe"> </h3>
+               <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                 data-placement="top" title="Very bad"></i>
+               <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                 data-placement="top" title="Poor"></i>
+               <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                 data-placement="top" title="OK"></i>
+               <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                 data-placement="top" title="Good"></i>
+               <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                 data-placement="top" title="Excellent"></i>
+               (1872)
+             </span>
+          
+             <p>Barra Funda, São Paulo</p>
+             <p class="description">Comida Chinesa</p>
+             <p class="text-center mb-0">Média de preço:</p>
+             <p class="price"><b>R$ 40</b>/pessoa<p>
+             <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+             </div>
+     
+           </li>
+           <li>
             <div class="card hotel">
-              <img src="img/hospedagem/hotelGenerico.png"  alt="Foto de um quarto de hotel"/>
-                    <div class="textcard">
-                    <h3>Ibis Styles Barra Fu<span id="rateMe"> </h3>
-                      <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
-                        data-placement="top" title="Very bad"></i>
-                      <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
-                        data-placement="top" title="Poor"></i>
-                      <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
-                        data-placement="top" title="OK"></i>
-                      <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
-                        data-placement="top" title="Good"></i>
-                      <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
-                        data-placement="top" title="Excellent"></i>
-                      (1872)
-                    </span>
+           <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
+                 <div class="textcard">
+                 <h3>Restaurante <span id="rateMe"> </h3>
+                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                     data-placement="top" title="Very bad"></i>
+                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                     data-placement="top" title="Poor"></i>
+                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                     data-placement="top" title="OK"></i>
+                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                     data-placement="top" title="Good"></i>
+                   <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                     data-placement="top" title="Excellent"></i>
+                   (1872)
+                 </span>
+              
+                 <p>Barra Funda, São Paulo</p>
+                 <p class="description">Comida Chinesa</p>
+                 <p class="text-center mb-0">Média de preço:</p>
+                 <p class="price"><b>R$ 40</b>/pessoa<p>
+                 <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                 </div>
+         
+               </li>
+               <li>
+                <div class="card hotel">
+               <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
+                     <div class="textcard">
+                     <h3>Restaurante <span id="rateMe"> </h3>
+                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                         data-placement="top" title="Very bad"></i>
+                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                         data-placement="top" title="Poor"></i>
+                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                         data-placement="top" title="OK"></i>
+                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                         data-placement="top" title="Good"></i>
+                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                         data-placement="top" title="Excellent"></i>
+                       (1872)
+                     </span>
+                  
+                     <p>Barra Funda, São Paulo</p>
+                     <p class="description">Comida Chinesa</p>
+                     <p class="text-center mb-0">Média de preço:</p>
+                     <p class="price"><b>R$ 40</b>/pessoa<p>
+                     <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                     </div>
+             
+                   </li>
+                   <li>
+                    <div class="card hotel">
+                   <img src="img/restaurante.jpg"  alt="Foto do interior de um restaurante"/>
+                         <div class="textcard">
+                         <h3>Restaurante <span id="rateMe"> </h3>
+                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
+                             data-placement="top" title="Very bad"></i>
+                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
+                             data-placement="top" title="Poor"></i>
+                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="2" data-html="true" data-toggle="popover"
+                             data-placement="top" title="OK"></i>
+                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="3" data-html="true" data-toggle="popover"
+                             data-placement="top" title="Good"></i>
+                           <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
+                             data-placement="top" title="Excellent"></i>
+                           (1872)
+                         </span>
+                      
+                         <p>Barra Funda, São Paulo</p>
+                         <p class="description">Comida Chinesa</p>
+                         <p class="text-center mb-0">Média de preço:</p>
+                         <p class="price"><b>R$ 40</b>/pessoa<p>
+                         <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                         </div>
                  
-                    <p>Barra Funda, São Paulo</p>
-                    <p class="description">Wi-Fi gratuito &#9679; Café da manhã incluso &#9679; Acessibilidade &#9679; Recepção 24h</p>
-                    <p></p>
-                    <p class="price"><b>R$ 287</b>/noite<p>
-                    <a href="" class="btn btn-primary blueClr">COMPRAR INGRESSO</a>
-                    </div>
-                </div>
+                       </li>
+                                            
 
-
-
-                      </ul>
+      
+  
+   
+     </ul>
   	</div>
   </div>
   <p class="text-md-right mt-3 mr-3" style="font-size:0.7rem">As avaliações, fotos e preços são ilustrativos</p>
 
-<!-- INICIO API TEMPO-->
-<div class="container mt-5">
-    <h3 class="font-weight-bold">Temperatura Média dos Próximos Dias</h3>
-    <div class="underline-purple line-small mb-4"></div>
-    </div>
-    <section id="listaTemp">
-    
-    </section>
-    <!--FIM API TEMPO-->
-    
+
 
 
 
@@ -372,7 +393,7 @@ type="javascript"
 defer
 ></script>
 <script src="script/apiTemperatura.js"></script>
-<script src="script/apiHoteis.js"></script>
+
 
 
 </html>
