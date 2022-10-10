@@ -4,6 +4,13 @@ body{
     font-family: 'Space Grotesk', sans-serif;
 }
 
+
+
+
+.flexItemNav spam{
+	min-width:150px;
+}
+
 .bigimage{
     width: 80vw;
     position: relative;
@@ -90,7 +97,7 @@ footer{
 }
 
 .underline-orange {
-    border-bottom: 3px solid #FF5900;
+    border-bottom: 3px solid #9A3904;
 }
 
 .underline-green {
@@ -245,7 +252,7 @@ footer{
 
 .greenClr {
     background-color: #016f45;
-    color: #003C25;
+    color: white;
     font-weight: 800;
 }
 
@@ -254,7 +261,7 @@ footer{
 }
 
 .orangeClr{
-    background-color:#FF5900;
+    background-color:#9A3904;
 }
 
 .btn {
@@ -381,11 +388,7 @@ textarea{
   
 
     
-.rowSegundaNav{
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 .line-items{
     padding: 0.5rem 5rem 2rem 1rem;
@@ -406,7 +409,30 @@ textarea{
 
  
   @media only screen and (max-width: 580px) {
+  
+  .rowSegundaNav{
+  max-width:100vw;
+  overflow:auto;
+  max-height:fit-content;
+	flex-direction:row;
+	flex-wrap:nowrap;
+}
    
+   .col-2{
+   flex:initial;
+   flex-shrink:0;
+   flex-grow:0;
+   max-width:fit-content;
+   }
+   
+   
+.flexItemNav{
+	margin:2rem 0;
+	padding:0 2rem;
+	min-width:150px;
+		line-height:2rem;
+	
+}
         .hotel{
             width:75vw;
             box-sizing: border-box;

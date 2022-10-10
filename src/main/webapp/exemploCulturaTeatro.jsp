@@ -106,7 +106,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Brasil</a></li>
         <li class="breadcrumb-item"><a href="#">Sao Paulo</a></li>
-        <li class="breadcrumb-item active" aria-current="page">História e Cultura</li>
+        <li class="breadcrumb-item active" aria-current="page" style="color:black">História e Cultura</li>
       </ol>
     </nav>
   </div>
@@ -159,20 +159,20 @@
             <div class="container col-lg-6 col-sm-12">
               <p class="font-weight-bold">O que levar</p>
               <ul class="list-unstyled">
-                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
-                <li>Documento de identificação</li>
-                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
-                <li>Comprovante que garante meia entrada (caso tenha)</li>
-                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
-                <li>Documento de vacinação (duas doses)</li>
+                <li>                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
+                Documento de identificação</li>
+                <li>                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
+                Comprovante que garante meia entrada (caso tenha)</li>
+                <li>                <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
+                Documento de vacinação (duas doses)</li>
               </ul>
 
 
               <ul class="list-unstyled">
-                <img class="icon float-left mr-2" src="img/teatro/img (38).png" alt="ícone de check">
-                <li>Compartilhar</li>
-                <img class="icon float-left mr-2" src="img/teatro/img (15).png" alt="ícone de check">
-                <li>Salvar</li>
+                <li>                <img class="icon float-left mr-2" src="img/teatro/img (38).png" alt="ícone de check">
+                Compartilhar</li>
+                <li>                <img class="icon float-left mr-2" src="img/teatro/img (15).png" alt="ícone de check">
+                Salvar</li>
               </ul>
             </div>
           </div>
@@ -226,7 +226,9 @@
         <iframe class="shadow-sm rounded-lg mapDiv"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.634553149294!2d-46.63880275635602!3d-23.545642961651083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56113b8aa18b%3A0x275b79f7efe44e1e!2sTheatro%20Municipal%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1653433483685!5m2!1spt-BR!2sbr"
           width="744" height="488" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Google maps teatro municipal"
+          ></iframe>
       </div>
 
       <div class="container col-lg-4 mt-2 ">
@@ -266,7 +268,7 @@
           <p class="card-text m-0 text-small">via R. Benjamin Constant</p>
           <p class="card-text"><small class="text-muted">13 min | 1,0km</small></p>
 
-          <a href="#" class="btn btn-primary greenClr">CLIQUE PARA SABER MAIS</a>
+          <a href="#" class="btn btn-primary greenClr white-text">CLIQUE PARA SABER MAIS</a>
         </div>
       </div>
       <!-- Fim do card  de como chegar -->
@@ -605,9 +607,10 @@
                  
                   <div class="col-md-8  card-rating m-0 p-1">
                     <div class="card Card-rate shadow-sm rounded bg-white p-4">
-                      <h3>Já Visitou? Deixe sua Avalição</h3>
+                      <label for="ratearea"><h3>Já Visitou? Deixe sua Avalição</h3>
+                      </label>
                       <hr>
-                      <div class="flex-rate">
+                      <div class="flex-rate" >
                         <div class="textarea">
                           <h5>Selecione <span id="rateMe d-inline" style="font-size: 1rem;">
                             <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
@@ -621,7 +624,7 @@
                             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
                               data-placement="top" title="Excellent"></i>
                           </span></h5>
-                         <textarea class="rounded border-0 bg-light shadow-sm"></textarea>
+                         <textarea  id="ratearea" class="rounded border-0 bg-light shadow-sm"></textarea>
                         </div>
                         <div class="button-area">
                           <h5>Indicado para:</h5>
@@ -644,7 +647,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                   <div class="divisor border-bottom flex-grow-1"></div>
-                  <a href="#">&nbsp;Ver todas as Avaliações</a>
+                  <a href="#" style="color:#1010FF">&nbsp;Ver todas as Avaliações</a>
 
                 </div>
 </section>

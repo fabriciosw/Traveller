@@ -40,25 +40,6 @@ footer{
   
 }
 
-.underline-pink {
-    border-bottom: 3px solid #ad0355;
-}
-
-.underline-blue {
-    border-bottom: 3px solid #20A1F1;
-}
-
-.underline-purple {
-    border-bottom: 3px solid #A100FF;
-}
-
-.underline-orange {
-    border-bottom: 3px solid #FF5900;
-}
-
-.underline-green {
-    border-bottom: 3px solid #00FF9D;
-}
 
 .breadcrumb {
     background-color: white;
@@ -188,26 +169,6 @@ footer{
     width:50%;
 }
 
-.pinkClr{
-    background-color:#AD0355;
-}
-
-.blueClr{
-    background-color: rgb(10, 95, 146);
-}
-
-
-.purpleClr{
-    background-color: #A100FF;
-
-}
-
-.greenClr {
-    background-color: #00FF9D;
-    color: #003C25;
-    font-weight: 800;
-}
-
 .yellowClr{
     color:#FFD600;
 }
@@ -217,9 +178,6 @@ footer{
     border-radius: 5px;
 }
 
-.orangeClr{
-    background-color:#FF5900;
-}
 
 .btn {
     border: none;
@@ -320,11 +278,7 @@ textarea{
   
 
     
-	.rowSegundaNav{
-	    flex-wrap: wrap;
-	    flex-direction: column;
-	    justify-content: center;
-	}
+	
 	
 	.navOption {
 		color: dark;
