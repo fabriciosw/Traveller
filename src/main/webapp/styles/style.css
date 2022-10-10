@@ -4,6 +4,10 @@ body{
     font-family: 'Space Grotesk', sans-serif;
 }
 
+
+
+
+
 .navbar-logo {
     max-width: 250px;
 }
@@ -146,6 +150,10 @@ footer{
 }
 
 
+.link-section{
+	color:black;
+}
+
 .card-locais{
     flex-shrink: 0;
     max-width: 300px;
@@ -181,11 +189,11 @@ footer{
 }
 
 .pinkClr{
-    background-color:#ce0164;
+    background-color:#AD0355;
 }
 
 .blueClr{
-    background-color:#20A1F1;
+    background-color: rgb(10, 95, 146);
 }
 
 
@@ -215,6 +223,13 @@ footer{
 
 .btn {
     border: none;
+   
+}
+
+.dicas{
+	 background-color:#00FF9D;
+    color:black;
+    font-weight:800;
 }
 
 .col{display: inline-block;}

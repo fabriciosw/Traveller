@@ -80,20 +80,20 @@
     	</div>
    
     <div class="col-2">
-    <a href='hospedagem.jsp' class='navOption'>
-      <span class="underline-blue flexItemNav ">Hospedagem</span></a>
+    <a href='hospedagem.jsp' class='navOption mb-3'>
+      <span class="underline-blue flexItemNav  mb-3">Hospedagem</span></a>
     </div>
     <div class="col-2">
-    <a href='gastronomia.jsp' class='navOption'>
-      <span class="underline-pink flexItemNav pinkClr p-2 rounded text-white">Gastronomia</span></a>
+    <a href='gastronomia.jsp' class='navOption mb-3'>
+      <span class="underline-pink flexItemNav pinkClr p-2 rounded text-white mb-3">Gastronomia</span></a>
     </div>
     <div class="col-2">
-    <a href='historia.jsp' class='navOption'>
-      <span class="underline-orange flexItemNav">História e Cultura</span></a>
+    <a href='historia.jsp' class='navOption mb-3'>
+      <span class="underline-orange flexItemNav  mb-3">História e Cultura</span></a>
     </div>
     <div class="col-2">
-    <a href='entreterimento.jsp' class='navOption'>
-      <span class="underline-purple flexItemNav">Entretenimento</span></a>
+    <a href='entreterimento.jsp' class='navOption mb-3'>
+      <span class="underline-purple flexItemNav mb-3">Entretenimento</span></a>
     </div>
     <!-- Div vazia para espaçamento -->
     <div class="col-1"></div>
@@ -112,7 +112,7 @@
 
 
 <div class="container bigimage" title="">
-    <img src="img/hospedagem/Galeria.png" alt="Foto de uma janela de hotel mostrando a paísagem de São Paulo." />
+    <img src="img/gastronomia/galeria.png" alt="Foto de uma Pizza." />
     <h1>Gastronomia em <b id="city">São Paulo</b></h1>
 </div>
 
