@@ -185,7 +185,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -203,7 +204,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -221,7 +223,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -240,7 +243,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -258,7 +262,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
 
@@ -290,7 +295,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -308,7 +314,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -326,7 +333,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -344,7 +352,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -362,7 +371,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
 
@@ -393,7 +403,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -411,7 +422,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -429,7 +441,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -447,7 +460,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
         <div class="card rounded shadow-sm rounded locals-card p-3">
@@ -465,7 +479,8 @@
             <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
               data-placement="top" title="Excellent"></i>
           </span>
-          <button type="button" class="btn orangeClr mb-1rem">Acessar</button>
+          <a href="exemploCulturaTeatro.jsp">
+          <button type="button" class="btn orangeClr mb-1rem">Acessar</button></a>
 
         </div>
       </div>
