@@ -152,7 +152,7 @@
         <p class="description">Comida Chinesa</p>
         <p class="text-center mb-0">Média de preço:</p>
         <p class="price"><b>R$ 40</b>/pessoa<p>
-        <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+        <a href="exemploRestaurante.jsp" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
         </div>
 
       </li>
@@ -178,7 +178,7 @@
              <p class="description">Comida Chinesa</p>
              <p class="text-center mb-0">Média de preço:</p>
              <p class="price"><b>R$ 40</b>/pessoa<p>
-             <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+             <a href="exemploRestaurante.jsp" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
              </div>
      
            </li>
@@ -204,7 +204,7 @@
                  <p class="description">Comida Chinesa</p>
                  <p class="text-center mb-0">Média de preço:</p>
                  <p class="price"><b>R$ 40</b>/pessoa<p>
-                 <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                 <a href="exemploRestaurante.jsp" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
                  </div>
          
                </li>
@@ -230,7 +230,7 @@
                      <p class="description">Comida Chinesa</p>
                      <p class="text-center mb-0">Média de preço:</p>
                      <p class="price"><b>R$ 40</b>/pessoa<p>
-                     <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                     <a href="exemploRestaurante.jsp" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
                      </div>
              
                    </li>
@@ -256,7 +256,7 @@
                          <p class="description">Comida Chinesa</p>
                          <p class="text-center mb-0">Média de preço:</p>
                          <p class="price"><b>R$ 40</b>/pessoa<p>
-                         <a href="" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
+                         <a href="exemploRestaurante.jsp" class="btn btn-primary pinkClr">ACESSAR PÁGINA</a>
                          </div>
                  
                        </li>
