@@ -142,19 +142,23 @@
           <div class="container col-lg-6 col-sm-12">
             <p class="font-weight-bold">O que levar</p>
             <ul class="list-unstyled">
-              <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
-              <li>Documento de identificação</li>
+              <li>              <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
+
+                Documento de identificação</li>
         
-              <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
-              <li>Documento de vacinação (duas doses)</li>
+              <li>              <img class="icon float-left mr-2" src="img/teatro/img (32).png" alt="ícone de check">
+
+                Documento de vacinação (duas doses)</li>
             </ul>
 
 
             <ul class="list-unstyled">
-              <img class="icon float-left mr-2" src="img/teatro/img (38).png" alt="ícone de check">
-              <li>Compartilhar</li>
-              <img class="icon float-left mr-2" src="img/teatro/img (15).png" alt="ícone de check">
-              <li>Salvar</li>
+              <li>
+                <img class="icon float-left mr-2" src="img/teatro/img (38).png" alt="ícone de check">
+                Compartilhar</li>
+              <li>              <img class="icon float-left mr-2" src="img/teatro/img (15).png" alt="ícone de check">
+
+                Salvar</li>
             </ul>
           </div>
         </div>
@@ -163,7 +167,7 @@
     </div>
 
     <div class="col">
-      <h4 class="font-weight-bold mt-4">Visite o Hotel</h4>
+      <h3 class="font-weight-bold mt-4">Visite o Hotel</h3>
       <div class="underline-blue line-small mb-3"></div>
       <div class="card rounded p-3 shadow-sm">
         <div class="d-flex">
@@ -237,7 +241,7 @@
             <div class="col-md-4  card-rating m-0 p-1">
               <div class="card Card-rate shadow-sm rounded bg-white p-4">
                 <div class="rating-desc">
-                <img src="img/teatro/larissa.png" class="rounded-circle img-rating">
+                <img src="img/teatro/larissa.png" class="rounded-circle img-rating" alt="Foto da pessoa que está fazendo a avaliação">
                   <div class="text-rating">
                   <p class="rating-text name-rating mb-0">Larissa Machado</p>
                       <span id="rateMe d-inline" style="font-size: 1rem;">
@@ -425,11 +429,12 @@
            
             <div class="col-md-8  card-rating m-0 p-1">
               <div class="card Card-rate shadow-sm rounded bg-white p-4">
-                <h3>Já Visitou? Deixe sua Avalição</h3>
+                <label for="ratearea">
+                <h3>Já Visitou? Deixe sua Avalição</h3></label>
                 <hr>
                 <div class="flex-rate">
                   <div class="textarea">
-                    <h5>Selecione <span id="rateMe d-inline" style="font-size: 1rem;">
+                    <h4>Selecione <span id="rateMe d-inline" style="font-size: 1rem;">
                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="0" data-html="true" data-toggle="popover"
                         data-placement="top" title="Very bad"></i>
                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="1" data-html="true" data-toggle="popover"
@@ -440,8 +445,8 @@
                         data-placement="top" title="Good"></i>
                       <i class="fas fa-star py-2 px-1 yellowClr" data-index="4" data-html="true" data-toggle="popover"
                         data-placement="top" title="Excellent"></i>
-                    </span></h5>
-                   <textarea class="rounded border-0 bg-light shadow-sm"></textarea>
+                    </span></h4>
+                   <textarea  id="ratearea" class="rounded border-0 bg-light shadow-sm"></textarea>
                   </div>
                   <div class="button-area">
                     <h5>Indicado para:</h5>
@@ -464,7 +469,7 @@
           </div>
           <div class="d-flex align-items-center">
             <div class="divisor border-bottom flex-grow-1"></div>
-            <a href="#">&nbsp;Ver todas as Avaliações</a>
+            <a href="#" style="color:#1010ee">&nbsp;Ver todas as Avaliações</a>
 
           </div>
 </section>
