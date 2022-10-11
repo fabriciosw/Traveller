@@ -185,6 +185,34 @@
 				<!-- Fim Visite o Theatro -->
 			</div>
 		</div>
+		
+			<div class="container bg-light py-4 px-5 mt-5">
+			<h3 class="font-weight-bold">Alugue seu carro</h3>
+			<div class="row">
+				<div class="col col-12 col-lg-8">
+
+					<p>Compare os preços nas melhores locadoras.</p>
+					<img class="img-fluid size-80percent"
+						src="./img/dicas-uteis/rent-a-car.png" alt="">
+
+				</div>
+				<div class="col col-12 col-lg-4">
+					<form class="form">
+						<label for="local-retirada">Retirar o carro em:</label><br> <input
+							class="form-input" type="text" id="local-retirada"
+							name="local-retirada"
+							placeholder="Informe a cidade ou aeroporto."><br> <label
+							for="data-retirada">Data da retirada</label><br> <input
+							class="form-input" type="date" id="data-retirada"
+							name="data-retirada" placeholder="Data da Retirada"> <label
+							for="data-retirada">Data da entrega</label><br> <input
+							class="form-input" type="date" id="data-entrega"
+							name="data-entrega" placeholder="Data da Entrega"> <input
+							type="submit" value="Submit" class="btn greenClr px-5">
+					</form>
+				</div>
+			</div>
+		</div>
 
 		<div class="Rayane">
 			<div class="container my-5">
@@ -579,33 +607,7 @@
 
 
 
-		<div class="container bg-light py-4 px-5 mt-5">
-			<h3 class="font-weight-bold">Alugue seu carro</h3>
-			<div class="row">
-				<div class="col col-12 col-lg-8">
-
-					<p>Compare os preços nas melhores locadoras.</p>
-					<img class="img-fluid size-80percent"
-						src="./img/dicas-uteis/rent-a-car.png" alt="">
-
-				</div>
-				<div class="col col-12 col-lg-4">
-					<form class="form">
-						<label for="local-retirada">Retirar o carro em:</label><br> <input
-							class="form-input" type="text" id="local-retirada"
-							name="local-retirada"
-							placeholder="Informe a cidade ou aeroporto."><br> <label
-							for="data-retirada">Data da retirada</label><br> <input
-							class="form-input" type="date" id="data-retirada"
-							name="data-retirada" placeholder="Data da Retirada"> <label
-							for="data-retirada">Data da entrega</label><br> <input
-							class="form-input" type="date" id="data-entrega"
-							name="data-entrega" placeholder="Data da Entrega"> <input
-							type="submit" value="Submit" class="btn greenClr px-5">
-					</form>
-				</div>
-			</div>
-		</div>
+	
 
 	</div>
 	</div>
